@@ -64,4 +64,8 @@ module.exports = class MenuController {
     today = mm + '/' + dd + '/' + yyyy;
     console.log(today);
   }
+
+  getContactCount(){
+    return this.contacts.length;
+  }
 }
